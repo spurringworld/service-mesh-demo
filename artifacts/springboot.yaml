@@ -256,7 +256,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.hostIP
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy-pjs:0.4.0-328
         name: sidecar
         volumeMounts:
         - mountPath: /opt/data
@@ -428,7 +428,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.hostIP
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy-pjs:0.4.0-328
         name: sidecar
         volumeMounts:
         - mountPath: /opt/data
@@ -666,7 +666,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.hostIP
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy-pjs:0.4.0-328
         name: sidecar
         volumeMounts:
         - mountPath: /opt/data
@@ -823,7 +823,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.hostIP
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy-pjs:0.4.0-328
         name: sidecar
         volumeMounts:
         - mountPath: /opt/data
@@ -980,7 +980,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: status.hostIP
-        image: flomesh/pipy-pjs:0.4.0-263
+        image: flomesh/pipy-pjs:0.4.0-328
         name: sidecar
         volumeMounts:
         - mountPath: /opt/data

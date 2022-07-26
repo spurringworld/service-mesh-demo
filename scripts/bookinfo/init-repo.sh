@@ -2,7 +2,7 @@
 
 set -exu
 #### local repo
-REPO_HOST=localhost:30060
+REPO_HOST=pipy-repo.pipy:6060
 REPO_NAME=bookinfo
 
 version=`curl -s http://$REPO_HOST/api/v1/repo/springboot | jq -r .version`
