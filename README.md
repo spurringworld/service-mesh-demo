@@ -83,6 +83,8 @@ pipy-repo-85b756c885-zv5c9   1/1     Running   0          20s
 **Init springboot codebase:**
 
 ```shell
+curl -X POST http://localhost:30060/api/v1/repo/test
+
 pushd scripts/springboot
 ./init-repo.sh
 popd
